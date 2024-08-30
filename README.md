@@ -1,7 +1,8 @@
 
 
 
-# CoffeeShopToken
+# Coffee Shop on Base
+
 
 ## Overview
 
@@ -115,9 +116,9 @@ Users progress through the loyalty levels based on the number of purchases they 
    - Ensure the `DeployCoffeeShopToken.s.sol` script has the correct parameters for `initialSupply`, `shopTreasury`, and `minimumSpend`.
 
 2. **Deploy and verify the contract**:
-   ```bash
+```bash
   forge script script/DeployCoffeeShopToken.s.sol:DeployCoffeeShopToken --rpc-url ["ENTER YOUR RPC"] --private-key ["ENTER YOUR Private Key"] --broadcast --verify  --etherscan-api-key ["ENTER YOUR Basescan api key"] -vvvv
-   ```
+```
 RPC urls for base sepolia can be gotten from [Alchemy](https://www.alchemy.com/) or any other source listed in the base docs
 Base API Keys can be created at [BaseScan](https://basescan.org/), create an account, login, and create a key
  
